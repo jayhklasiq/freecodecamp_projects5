@@ -7,6 +7,9 @@ require("dotenv").config();
 var app = express();
 var uploadedFile = null; // Global variable to store uploaded file info
 
+
+
+
 app.use(cors());
 app.use("/public", express.static(process.cwd() + "/public"));
 
